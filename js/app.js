@@ -24,5 +24,5 @@ document.getElementById('immage').src = immage;
 
 password = nameUser + lastName + age + color + 21;
 password = password.toLowerCase();
-document.getElementById('password').innerHTML = password;
+document.getElementById('password').innerHTML = password.replace(/ /g, '');
 
