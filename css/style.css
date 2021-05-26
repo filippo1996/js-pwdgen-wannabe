@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container{
+    margin: 100px auto;
+}
+
+/* main */
+.card{
+    min-width: 900px;
+    max-width: 900px;
+    height: 400px; /* da rimuovere */
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(152, 182, 182);
+}
+
+.title{
+    background: yellow;
+    width: max-content;
+    padding: 5px;
+    border-radius: 10px;
+}
